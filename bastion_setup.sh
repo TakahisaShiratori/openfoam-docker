@@ -26,3 +26,4 @@ sudo apt-get install -y docker-ce
 sudo apt-get install -y python-setuptools
 sudo easy_install pip
 sudo pip install awscli
+sudo pip install boto3
