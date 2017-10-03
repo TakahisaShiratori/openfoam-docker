@@ -31,5 +31,6 @@ ENV AWS_DEFAULT_OUTPUT=json
 
 #ADD https://raw.githubusercontent.com/porcaro33/openfoam-docker/master/openfoam_run.sh /root
 ADD openfoam_run.sh /root
+ADD U_template /root
 RUN sudo chmod +x /root/openfoam_run.sh
-CMD ["/root/openfoam_run.sh"]
+#CMD ["/root/openfoam_run.sh"]
