@@ -278,7 +278,7 @@ Resources:
         Fn::Base64: !Sub |
           #!/bin/bash -xe
           cd /home/ubuntu
-          git clone -b feature/doe https://github.com/TakahisaShiratori/openfoam-docker.git
+          git clone -b develop https://github.com/TakahisaShiratori/openfoam-docker.git
           cd openfoam-docker
           ./bastion_setup.sh
 
