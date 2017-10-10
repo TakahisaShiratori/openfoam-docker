@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
         print("Submitted " + JOBNAME + " as " + response["jobId"])
         ii += 1
-        time.sleep(10)
+        # time.sleep(10)
 
         zVelocity += zVelocityIncrement
         if zVelocity > zVelocityMax:
