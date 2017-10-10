@@ -30,7 +30,7 @@ if __name__ == "__main__":
       zVelocity = zVelocityMin
       while True:
         JOBNAME = "JOB_%05d"%ii
-        COMMAND = [SHELLSCRIPT, "%d"%xVelocity, "%d"%yVelocity, "%d"%zVelocity]
+        COMMAND = [SHELLSCRIPT, "%f"%xVelocity, "%f"%yVelocity, "%f"%zVelocity]
 
         response = batch.submit_job(
           jobName=JOBNAME,
