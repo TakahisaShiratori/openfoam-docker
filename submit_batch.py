@@ -11,15 +11,15 @@ batch = boto3.client("batch", region_name=REGION)
 
 xVelocityMin       = 1
 xVelocityMax       = 20
-xVelocityIncrement = 7
+xVelocityIncrement = 5
 
 yVelocityMin       = 0
 yVelocityMax       = 5
-yVelocityIncrement = 2
+yVelocityIncrement = 0.5
 
 zVelocityMin       = 0
 zVelocityMax       = 5
-zVelocityIncrement = 2
+zVelocityIncrement = 0.5
 
 if __name__ == "__main__":
   ii = 1
