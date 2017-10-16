@@ -6,7 +6,7 @@
     "type": "SPOT",
     "spotIamFleetRole": "arn:aws:iam::<account-id>:role/AmazonEC2SpotFleetRole",
     "minvCpus": 0,
-    "maxvCpus": 10,
+    "maxvCpus": 200,
     "desiredvCpus": 0,
     "instanceTypes": [
       "c4"
