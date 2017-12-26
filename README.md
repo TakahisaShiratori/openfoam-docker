@@ -43,3 +43,9 @@ awscli = 1.11.123
 11. create computing environment on AWS Batch
 12. create job queue on AWS Batch
 13. submit jobs
+
+# See Also
+## English
+[Submitting OpenFOAM jobs to AWS Batch while sweeping its parameter](http://blog.serverworks.co.jp/tech/2017/11/27/aws-batch-openfoam-en/)
+## 日本語
+[AWS Batchにいろんな条件のOpenFOAMのジョブを投入する](http://blog.serverworks.co.jp/tech/2017/10/23/aws-batch-openfoam/)
